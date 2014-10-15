@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <plugin title="Bootstrap Designer" name="BoostrapPlugin-master" >
 	<static-paths>
 	  <static-path url="/bootstrap-res" localFolder="resources"/>
@@ -7,7 +7,7 @@
   		<overlay id="launch" >
             <button id="launch_new_bLayout" label="Bootstrap Designer" command="Home.openFile('Bootstrap Designer','Bootstrap Designer', 'content/bootstrap-res/BootstrapThemeMaker/LayoutDesign.html');$('#btnCreateNew').popover('hide');"/>
         </overlay>
-		<overlay id="startup.Bootstrap" resourcebundle="content/IvyDC/resources/lang/messages" priority="4">
+		<overlay id="startup.Bootstrap"  priority="4">
 			<menubar id="newmenu">
 	        	<menuitem id="Bootstrap" label="Bootstrap Designer" command="mantleXulHandler.openUrl('Bootstrap Designer','Bootstrap Designer','content/bootstrap-res/BootstrapThemeMaker/LayoutDesign.html')"/>
 	      	</menubar>
