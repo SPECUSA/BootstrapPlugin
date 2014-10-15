@@ -7,7 +7,7 @@
   		<overlay id="launch" >
             <button id="launch_new_bLayout" label="Bootstrap Designer" command="Home.openFile('Bootstrap Designer','Bootstrap Designer', 'content/bootstrap-res/BootstrapThemeMaker/LayoutDesign.html');$('#btnCreateNew').popover('hide');"/>
         </overlay>
-		<overlay id="startup.Bootstrap"  priority="4">
+		<overlay id="startup.Bootstrap" resourcebundle="" priority="5">
 			<menubar id="newmenu">
 	        	<menuitem id="Bootstrap" label="Bootstrap Designer" command="mantleXulHandler.openUrl('Bootstrap Designer','Bootstrap Designer','content/bootstrap-res/BootstrapThemeMaker/LayoutDesign.html')"/>
 	      	</menubar>
